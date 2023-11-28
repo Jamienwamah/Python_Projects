@@ -49,3 +49,10 @@ Amazon Linux 2023 user data script:
           export DYNAMO_MODE=on
 
           FLASK_APP=application.py /usr/local/bin/flask run --host=0.0.0.0 --port=80 
+
+
+
+
+When using the user data scripts, remember to replace the <INSERT REGION HERE> with whatever AWS region you are operating in, 
+and ensure you remove both brackets as well.
+
